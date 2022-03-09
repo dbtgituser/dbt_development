@@ -20,9 +20,9 @@ models:
                 - unique
                 - not_null
                 
-     - name: users      
-       description: "users dbt model"
-       columns:
+    - name: users      
+      description: "users dbt model"
+      columns:
           - name: user_id
             description: "The primary key for this table"
             tests:
